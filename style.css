@@ -1,0 +1,115 @@
+body{
+    font-family: Consolas;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(#1a28f3,#1983fd,#3205fd)
+}
+hr{
+    width: 420px;
+}
+#contenedor{
+    width: 500px;
+    height: 500px;
+    background: #29d3e9 ;
+    border: 10px solid #34d2e7;
+    border-radius: 12px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.reiniciar{
+    margin: 2vh;
+    font-size: 6vh;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.reiniciar:hover{
+    font-size: 8vh;
+}
+.explicacion{
+    margin: 0 auto;
+    width: 574px;
+    height: 800px;
+    background: rgba(255, 255, 255, 0.202);;
+    border: 1px solid rgba(255, 255 ,255, 0.30);
+    border-radius: 35px;
+    color: #ffffff
+}
+.casilla{
+    width: 90px;
+    height: 90px;
+    border: 5px solid #29d2e9;
+    background: linear-gradient(#46e0ff,#48b6fb,#3abdd1)  ;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.x2{
+    background: linear-gradient(#d3d3d3,#a7dcff,#6fe1f0);
+    color: black;
+    border-radius: 20%;
+}
+.x4{
+    background: linear-gradient(#caffff,#73c5fc,#4ea8e4);
+    color: black;
+    border-radius: 20%;
+}
+.x8{
+    background: linear-gradient(#50bdfc,#3098ee,#1a8dc2);
+    color: black;
+    border-radius: 20%;
+}
+.x16{
+    background: linear-gradient(#21a0ea,#157cd1,#0049a9);
+    color: white;
+    border-radius: 20%;
+}
+.x32{
+    background: linear-gradient(#2973dc,#1d53c9,#092992);
+    color: white;
+    border-radius: 20%;
+}
+.x64{
+    background: linear-gradient(#2d3fca,#1d1ada,#2104ff);
+    color: white;
+    border-radius: 20%;
+}
+.x128{
+    background: linear-gradient(#3f01ea,#4519d3,#6d2fd9);
+    color: white;
+    border-radius: 20%;
+}
+.x256{
+    background: linear-gradient(#7639b8,#a03ae8,#df1afd);
+    color: white;
+    border-radius: 20%;
+}
+.x512{
+    background: linear-gradient(#db19e9,#ff00ff,#e34798);
+    color: white;
+    border-radius: 20%;
+}
+.x1024{
+    background: linear-gradient(#f110ae,#ee3082,#c21a28);
+    color: white;
+    border-radius: 20%;
+}
+.x2048{
+    background: linear-gradient(#e91e65,#ff1660,#ee0505);
+    color: white;
+    border-radius: 20%;
+}
+.x4096{
+    background: linear-gradient(#ff0606,#c51515,#701e1e);
+    color: white;
+    border-radius: 20%;
+}
+.x8192{
+    background: linear-gradient(#272626,#201f1f,#000000);
+    color: white;
+    border-radius: 20%;
+}
